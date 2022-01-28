@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Quizizz Cheat
-// @source       https://github.com/gbaranski/quizizz-cheat
+// @source       https://github.com/AlexanderGracetantiono/axeside-testing-script
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
-// @author       gbaranski, PsuperX 
+// @author       Alex
 // @match        https://quizizz.com/*
 // @icon         https://cf.quizizz.com/img/favicon/favicon-32x32.png
 // @require      https://gist.githubusercontent.com/BrockA/2625891/raw/9c97aa67ff9c5d56be34a55ad6c18a314e5eb548/waitForKeyElements.js
@@ -21,7 +21,7 @@ function onQuizCreate() {
     isQuizCreated = true
 
     // Start the magic
-    fetch("https://raw.githubusercontent.com/gbaranski/quizizz-cheat/master/dist/bundle.js")
+    fetch("https://raw.githubusercontent.com/AlexanderGracetantiono/axeside-testing-script/master/dist/bundle.js")
         .then((res) => res.text()
         .then((t) => eval(t)))
 }

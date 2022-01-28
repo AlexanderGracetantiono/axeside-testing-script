@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gbaranski/quizizz-cheat.git"
+    "url": "git+https://github.com/AlexanderGracetantiono/axeside-testing-script.git"
   },
-  "author": "gbaranski",
+  "author": "Alexander",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gbaranski/quizizz-cheat/issues"
+    "url": "https://github.com/AlexanderGracetantiono/axeside-testing-script/issues"
   },
-  "homepage": "https://github.com/gbaranski/quizizz-cheat#readme",
+  "homepage": "https://github.com/AlexanderGracetantiono/axeside-testing-script#readme",
   "devDependencies": {
     "copy-webpack-plugin": "^7.0.0",
     "javascript-obfuscator": "^2.10.3",

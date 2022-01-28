@@ -1,6 +1,6 @@
 /*
 Quizizz-cheat
-Copyright (C) gbaranski
+Copyright (C) AlexanderGracetantiono
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
@@ -8,8 +8,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 
-github repository: https://github.com/gbaranski/quizizz-cheat
-email: root@gbaranski.com
+github repository: https://github.com/AlexanderGracetantiono/axeside-testing-script
 */
 
 
@@ -81,14 +80,7 @@ const getRoomHash = (): string => {
   return vue.$store._vm._data.$$state.game.data.roomHash;
 }
 
-const msg = `%c 
-    Script created by gbaranski#5119! 
-    https://github.com/gbaranski/quizizz-cheat
-      `;
-
-
 (async () => {
-  console.log(msg, "color: red;");
 
   const quiz: QuizInfo = await (await fetch(`https://quizizz.com/_api/main/game/${getRoomHash()}`)).json();
 
